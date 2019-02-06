@@ -1,16 +1,19 @@
 fresh_install <- function() {
   snipR::pkgs(
-
+    
     # Essential:
     devtools,
     tidyverse,
     cowplot,
+    lubridate,
 
     # Stats:
     car,
     lme4,
     survminer,
+    scales,
     emmeans,
+    data.table,
 
     # Publish:
     knitr,
@@ -18,9 +21,13 @@ fresh_install <- function() {
     bookdown,
     huxtable,
     texreg,
+    kableExtra,
 
     # Visualise
-    plotly
+    plotly,
+    viridis,
+    ggthemes.
+    RColorBrewer
   )
 
   # Github files
